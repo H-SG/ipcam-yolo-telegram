@@ -1,0 +1,39 @@
+blackListResponses:
+- Computer says no
+- Stranger danger!
+- You're not my boss!
+- Respect the privacy of others
+- Not in sudoers file, this incident will be reported
+- You're not on the list I'm afraid
+- Strangers!? not in my bot!
+cameraPaths:
+  all: output/*
+  back: output/401
+  front: output/101
+  gate: output/301
+  side: output/201
+chatResponses:
+- Maybe all these responses are randomly chosen
+- Beep boop, I'm a bot
+- You've mistaken me for a sentient being, perhaps your last mistake
+- I'm not good at conversing
+- Hope you like talking to digital brick walls
+- Your response has been logged for future evidence
+- There's secrects in these here bytes
+keyObjects:
+- person
+- dog
+- cat
+monitorPeriod:
+ start: 17:00
+ end: 9:00
+objects:
+- dog
+- cat
+- person
+- bird
+- car
+token: <wouldn't it be funny if I uploaded this to a public repo?>
+whiteList:
+  123456789: Name1
+  987654321: Name2
